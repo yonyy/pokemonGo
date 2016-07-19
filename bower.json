@@ -1,0 +1,29 @@
+{
+  "name": "pokemonGoTrackerApp",
+  "version": "0.0.1",
+  "homepage": "https://github.com/yonyy/oic-tracker",
+  "authors": [
+    "Yonatan Perez"
+  ],
+  "description": "node to app to optimize tracking and capturing of Pokemon",
+  "main": "app.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-router": "~0.3.1",
+    "angular": "~1.5.7",
+    "font-awesome": "~4.6.3",
+    "angular-resource": "~1.5.7",
+    "bootstrap": "~3.3.6",
+    "angular-bootstrap": "~1.3.3",
+    "material-design-lite": "~1.1.3",
+    "angular-material": "~1.0.9",
+    "angular-animate": "~1.5.7"
+  }
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+	<title>Pokemon Go Tracker</title>
+
+    <!-- Google API -->
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.20&libraries=weather,geometry,visualization,places&language=en&key=AIzaSyB54ZZv-VPUbWTDR1o1vb_alHaX5REYnUo"></script>
+
+	<!-- JS -->
+	<script type="text/javascript" src="jquery/dist/jquery.js"></script>
+	<script type="text/javascript" src="angular/angular.js"></script>
+    <script type="text/javascript" src="angular-animate/angular-animate.js"></script>
+    <script type="text/javascript" src="angular-aria/angular-aria.js"></script>
+    <script type="text/javascript" src="angular-messages/angular-messages.js"></script>
+    <script type="text/javascript" src="angular-material/angular-material.js"></script>
+	<script type="text/javascript" src="angular-ui-router/release/angular-ui-router.js"></script>
+	<script type="text/javascript" src="angular-resource/angular-resource.js"></script>
+	<script type="text/javascript" src="lodash/dist/lodash.js"></script>
+	<script type="text/javascript" src="angular-simple-logger/dist/angular-simple-logger.js"></script>
+	<script type="text/javascript" src="angular-google-maps/dist/angular-google-maps.js"></script>
+	<script type="text/javascript" src="ngGeolocation/ngGeolocation.js"></script>
+	<script type="text/javascript" src="material-design-lite/material.min.js"></script>
+	
+	<!-- Controllers -->
+	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript" src="js/controllers/googlemaps.js"></script>
+	<script type="text/javascript" src="js/controllers/main.js"></script>
+	<script type="text/javascript" src="js/controllers/locationSearch.js"></script>
+	<script type="text/javascript" src="js/controllers/pokemonSearch.js"></script>
+
+	<!-- Directives -->
+	<script type="text/javascript" src="js/directives/ngAutocomplete.js"></script>
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="material-design-lite/material.min.css">
+	<link rel="stylesheet" href="angular-material/angular-material.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="angular-google-places-autocomplete/src/autocomplete.css">
+	<link rel="stylesheet" href="css/main.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body ui-view="body"></body>
+</html>

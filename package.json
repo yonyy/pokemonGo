@@ -1,0 +1,16 @@
+{
+  "name": "pokemonGoTrackerApp",
+  "version": "1.0.0",
+  "description": "App designed to help Pokemon trainers find and captuer Pokemon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mysql": "^2.11.1",
+    "sequelize": "^3.23.6"
+  }
+}

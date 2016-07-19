@@ -1,0 +1,28 @@
+<!-- Content -->
+<md-content id="topContent">
+  <md-card>
+    <md-card-title>
+        <md-card-title-text>
+          <div class="md-headline">Pokemon Go</div>
+          <div class="md-subhead">Search a pokemon and see where it has been known to appear or search a location and see the known pokemons to appear. You can also contribute by clicking 'Add Pokemon' and tell us what pokemon you found and where you found it.</div>
+        </md-card-title-text>
+    </md-card-title>
+    <md-card-content>
+      <md-input-container ui-view="search">
+      </md-input-container>
+      <md-input-container>
+        <md-checkbox ng-model="isLocationSearch" ng-change="switchToLocation()" aria-label="Location">Location</md-checkbox>
+        <md-checkbox ng-model="isPokemonSearch" ng-change="switchToPokemon()" aria-label="Pokemon">Pokemon</md-checkbox>
+      </md-input-container>
+    </md-card-content>
+    <md-card-actions layout="row" layout-align="end center">
+      <md-button>Add a Pokemon</md-button>
+      <md-button>FAQ</md-button>
+    </md-card-actions>
+  </md-card>
+</md-content>
+<md-content id="mapContent">
+	<ui-gmap-google-map center="map.center" zoom="map.zoom" id="map">
+		<ui-gmap-marker ng-repeat="marker in markers" idKey='marker.key' coords='marker.coords'></ui-gmap-marker>
+	</ui-gmap-google-map>
+</md-content>
