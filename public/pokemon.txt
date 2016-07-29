@@ -1,0 +1,453 @@
+Bulbasaur
+001 Bulbasaur
+Grass Poison
+Ivysaur
+002 Ivysaur
+Grass Poison
+Venusaur
+003 Venusaur
+Grass Poison
+Charmander
+004 Charmander
+Fire
+Charmeleon
+005 Charmeleon
+Fire
+Charizard
+006 Charizard
+Fire Flying
+Squirtle
+007 Squirtle
+Water
+Wartortle
+008 Wartortle
+Water
+Blastoise
+009 Blastoise
+Water
+Caterpie
+010 Caterpie
+Bug
+Metapod
+011 Metapod
+Bug
+Butterfree
+012 Butterfree
+Bug Flying
+Weedle
+013 Weedle
+Bug Poison
+Kakuna
+014 Kakuna
+Bug Poison
+Beedrill
+015 Beedrill
+Bug Poison
+Pidgey
+016 Pidgey
+Normal Flying
+Pidgeotto
+017 Pidgeotto
+Normal Flying
+Pidgeot
+018 Pidgeot
+Normal Flying
+Rattata
+019 Rattata
+Normal
+Raticate
+020 Raticate
+Normal
+Spearow
+021 Spearow
+Normal Flying
+Fearow
+022 Fearow
+Normal Flying
+Ekans
+023 Ekans
+Poison
+Arbok
+024 Arbok
+Poison
+Pikachu
+025 Pikachu
+Electric
+Raichu
+026 Raichu
+Electric
+Sandshrew
+027 Sandshrew
+Ground
+Sandslash
+028 Sandslash
+Ground
+Nidoran♀
+029 Nidoran♀
+Poison
+Nidorina
+030 Nidorina
+Poison
+Nidoqueen
+031 Nidoqueen
+Poison Ground
+Nidoran♂
+032 Nidoran♂
+Poison
+Nidorino
+033 Nidorino
+Poison
+Nidoking
+034 Nidoking
+Poison Ground
+Clefairy
+035 Clefairy
+Fairy
+Clefable
+036 Clefable
+Fairy
+Vulpix
+037 Vulpix
+Fire
+Ninetales
+038 Ninetales
+Fire
+Jigglypuff
+039 Jigglypuff
+Normal Fairy
+Wigglytuff
+040 Wigglytuff
+Normal Fairy
+Zubat
+041 Zubat
+Poison Flying
+Golbat
+042 Golbat
+Poison Flying
+Oddish
+043 Oddish
+Grass Poison
+Gloom
+044 Gloom
+Grass Poison
+Vileplume
+045 Vileplume
+Grass Poison
+Paras
+046 Paras
+Bug Grass
+Parasect
+047 Parasect
+Bug Grass
+Venonat
+048 Venonat
+Bug Poison
+Venomoth
+049 Venomoth
+Bug Poison
+Diglett
+050 Diglett
+Ground
+Dugtrio
+051 Dugtrio
+Ground
+Meowth
+052 Meowth
+Normal
+Persian
+053 Persian
+Normal
+Psyduck
+054 Psyduck
+Water
+Golduck
+055 Golduck
+Water
+Mankey
+056 Mankey
+Fighting
+Primeape
+057 Primeape
+Fighting
+Growlithe
+058 Growlithe
+Fire
+Arcanine
+059 Arcanine
+Fire
+Poliwag
+060 Poliwag
+Water
+Poliwhirl
+061 Poliwhirl
+Water
+Poliwrath
+062 Poliwrath
+Water Fighting
+Abra
+063 Abra
+Psychic
+Kadabra
+064 Kadabra
+Psychic
+Alakazam
+065 Alakazam
+Psychic
+Machop
+066 Machop
+Fighting
+Machoke
+067 Machoke
+Fighting
+Machamp
+068 Machamp
+Fighting
+Bellsprout
+069 Bellsprout
+Grass Poison
+Weepinbell
+070 Weepinbell
+Grass Poison
+Victreebel
+071 Victreebel
+Grass Poison
+Tentacool
+072 Tentacool
+Water Poison
+Tentacruel
+073 Tentacruel
+Water Poison
+Geodude
+074 Geodude
+Rock Ground
+Graveler
+075 Graveler
+Rock Ground
+Golem
+076 Golem
+Rock Ground
+Ponyta
+077 Ponyta
+Fire
+Rapidash
+078 Rapidash
+Fire
+Slowpoke
+079 Slowpoke
+Water Psychic
+Slowbro
+080 Slowbro
+Water Psychic
+Magnemite
+081 Magnemite
+Electric Steel
+Magneton
+082 Magneton
+Electric Steel
+Farfetch'd
+083 Farfetch'd
+Normal Flying
+Doduo
+084 Doduo
+Normal Flying
+Dodrio
+085 Dodrio
+Normal Flying
+Seel
+086 Seel
+Water
+Dewgong
+087 Dewgong
+Water Ice
+Grimer
+088 Grimer
+Poison
+Muk
+089 Muk
+Poison
+Shellder
+090 Shellder
+Water
+Cloyster
+091 Cloyster
+Water Ice
+Gastly
+092 Gastly
+Ghost Poison
+Haunter
+093 Haunter
+Ghost Poison
+Gengar
+094 Gengar
+Ghost Poison
+Onix
+095 Onix
+Rock Ground
+Drowzee
+096 Drowzee
+Psychic
+Hypno
+097 Hypno
+Psychic
+Krabby
+098 Krabby
+Water
+Kingler
+099 Kingler
+Water
+Voltorb
+100 Voltorb
+Electric
+Electrode
+101 Electrode
+Electric
+Exeggcute
+102 Exeggcute
+Grass Psychic
+Exeggutor
+103 Exeggutor
+Grass Psychic
+Cubone
+104 Cubone
+Ground
+Marowak
+105 Marowak
+Ground
+Hitmonlee
+106 Hitmonlee
+Fighting
+Hitmonchan
+107 Hitmonchan
+Fighting
+Lickitung
+108 Lickitung
+Normal
+Koffing
+109 Koffing
+Poison
+Weezing
+110 Weezing
+Poison
+Rhyhorn
+111 Rhyhorn
+Ground Rock
+Rhydon
+112 Rhydon
+Ground Rock
+Chansey
+113 Chansey
+Normal
+Tangela
+114 Tangela
+Grass
+Kangaskhan
+115 Kangaskhan
+Normal
+Horsea
+116 Horsea
+Water
+Seadra
+117 Seadra
+Water
+Goldeen
+118 Goldeen
+Water
+Seaking
+119 Seaking
+Water
+Staryu
+120 Staryu
+Water
+Starmie
+121 Starmie
+Water Psychic
+Mr
+122 Mr. Mime
+Psychic Fairy
+Scyther
+123 Scyther
+Bug Flying
+Jynx
+124 Jynx
+Ice Psychic
+Electabuzz
+125 Electabuzz
+Electric
+Magmar
+126 Magmar
+Fire
+Pinsir
+127 Pinsir
+Bug
+Tauros
+128 Tauros
+Normal
+Magikarp
+129 Magikarp
+Water
+Gyarados
+130 Gyarados
+Water Flying
+Lapras
+131 Lapras
+Water Ice
+Ditto
+132 Ditto
+Normal
+Eevee
+133 Eevee
+Normal
+Vaporeon
+134 Vaporeon
+Water
+Jolteon
+135 Jolteon
+Electric
+Flareon
+136 Flareon
+Fire
+Porygon
+137 Porygon
+Normal
+Omanyte
+138 Omanyte
+Rock Water
+Omastar
+139 Omastar
+Rock Water
+Kabuto
+140 Kabuto
+Rock Water
+Kabutops
+141 Kabutops
+Rock Water
+Aerodactyl
+142 Aerodactyl
+Rock Flying
+Snorlax
+143 Snorlax
+Normal
+Articuno
+144 Articuno
+Ice Flying
+Zapdos
+145 Zapdos
+Electric Flying
+Moltres
+146 Moltres
+Fire Flying
+Dratini
+147 Dratini
+Dragon
+Dragonair
+148 Dragonair
+Dragon
+Dragonite
+149 Dragonite
+Dragon Flying
+Mewtwo
+150 Mewtwo
+Psychic
+Mew
+151 Mew
+Psychic

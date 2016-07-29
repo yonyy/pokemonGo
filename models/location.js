@@ -8,16 +8,32 @@ module.exports = function(sequelize, DataTypes) {
 			primaryKey: true,
 			autoIncrement: true
 		},
-		longitute: {
+		longitude: {
 			type: DataTypes.FLOAT(11),
 			allowNull: false,
 			validate: { min: -90, max: 90 }
 		},
-		latitute: {
+		latitude: {
 			type: DataTypes.FLOAT(11),
 			allowNull: false,
 			validate: { min: -180, max: 180 }
-		}
+		},
+		address: {
+			type: DataTypes.STRING,
+			allowNull: false
+		},
+		PokemonId: {
+			type: DataTypes.INTEGER,
+			allowNull: false,
+			references: {
+				model: 'Pokemons',
+				key: 'id'
+			}
+		},
+		PokemonCounter: {
+			type: DataTypes.INTEGER,
+			defaultValue: 1
+		},
 	});
 
 	return Location;

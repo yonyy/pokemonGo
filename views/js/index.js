@@ -54,5 +54,11 @@ app.factory('resource', ['$resource', function($resource) {
 		}
 	);
 
+	self.pokemon = $resource('/api/pokemon', null,
+		{
+			'getAll' : {method: 'GET', isArray: true, params: {}}
+		}
+	);
+
 	return self;
 }])

@@ -76,7 +76,7 @@ function($scope, $state, $geolocation, uiGmapGoogleMapApi, uiGmapIsReady, resour
 		$scope.isLocationSearch = true;
 		if ($scope.isPokemonSearch) {
 			$scope.isPokemonSearch = false;
-			$state.go('main.locationSearch');
+			$state.go('main.locationSearch',{initialAddress: $scope.location.model});
 		};
 	};
 
@@ -87,4 +87,10 @@ function($scope, $state, $geolocation, uiGmapGoogleMapApi, uiGmapIsReady, resour
 			$state.go('main.pokemonSearch');
 		}
 	}
+
+	$('body').materialScrollTop({
+		revealElement: 'md-card',
+		revealPosition: 'bottom',
+	});
+	
 }]);

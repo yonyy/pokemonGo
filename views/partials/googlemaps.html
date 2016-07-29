@@ -8,8 +8,8 @@
         </md-card-title-text>
     </md-card-title>
     <md-card-content>
-      <md-input-container ui-view="search">
-      </md-input-container>
+      <div ui-view="search">
+      </div>
       <md-input-container>
         <md-checkbox ng-model="isLocationSearch" ng-change="switchToLocation()" aria-label="Location">Location</md-checkbox>
         <md-checkbox ng-model="isPokemonSearch" ng-change="switchToPokemon()" aria-label="Pokemon">Pokemon</md-checkbox>
@@ -20,6 +20,7 @@
       <md-button>FAQ</md-button>
     </md-card-actions>
   </md-card>
+  <button class="material-scrolltop" type="button"></button>
 </md-content>
 <md-content id="mapContent">
 	<ui-gmap-google-map center="map.center" zoom="map.zoom" id="map">

@@ -1,4 +1,8 @@
-<md-icon>search</md-icon>
-<form ng-submit="goUp()">
-	<input type="text" ng-model="pokemonSearch" placeholder="Pokemon">
-</form>
+<md-autocomplete class="no-box-shadow longer-width" md-selected-item="selectedPokemon" md-search-text="searchPokemon" md-items="pokemon in pokemons | filter:{name:searchPokemon}" md-item-text="pokemon.name" md-floating-label="Pokemon">
+	<md-item-template>
+		<span md-highlight-text="searchPokemon">{{pokemon.name}}</span>
+	</md-item-template>
+	<md-not-found>
+		No matches found.
+	</md-not-found>
+</md-autocomplete>
